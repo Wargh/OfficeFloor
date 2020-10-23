@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   #%L
-  OfficeCompiler
+  Start Before Tutorial
   %%
   Copyright (C) 2005 - 2020 Daniel Sagenschneider
   %%
@@ -20,11 +20,8 @@
   #L%
   -->
 
-<model>
-    <field type="String" name="office floor managed object source name" />
-    <field type="String" name="managed object type" />
-    <field type="OfficeFloorManagedObjectSourceModel" name="start earlier"
-        end-list="start before earlier" />
-    <field type="OfficeFloorManagedObjectSourceModel" name="start later"
-        end-list="start before later" />
-</model>
+<project>
+	<body>
+        <menu ref="parent" />
+	</body>
+</project>
